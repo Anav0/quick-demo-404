@@ -8,7 +8,6 @@ import DarkIcon from "../images/dark2.svg";
 import LightIcon from "../images/light1.svg";
 import {PageContainer,ThemeSwitch,BgImg,ContentContainer,BigAss404,Header,Desc,ButtonContainer,Btn404,BtnText} from "../styles/index.styled";
 
-
 const IndexPage = ({data}) => {
   const [isLightTheme, setIsLightTheme] = useState(true);
   console.log(data);
