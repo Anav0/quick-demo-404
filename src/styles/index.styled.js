@@ -1,4 +1,4 @@
-import {breakpoints}from "../helpers";
+import { breakpoints } from "../helpers";
 import styled from "styled-components";
 import Img from "gatsby-image"
 
@@ -47,8 +47,10 @@ export const BigAss404 = styled.span`
   font-size: 30rem;
   font-weight: 900;
   background: var(--accent-color);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   font-size: 10rem;
 
   @media (min-width: ${breakpoints.md}) {
